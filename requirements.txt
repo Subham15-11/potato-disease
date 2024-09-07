@@ -1,0 +1,7 @@
+fastapi
+tensorflow
+numpy
+uvicorn
+gunicorn
+matplotlib
+pillow

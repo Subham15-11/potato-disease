@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: fastapi-ml-server
+    env:
+      PORT: 8000
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn app:app --host 0.0.0.0 --port $PORT"
+    routes:
+      - path: /predict
+        methods: [POST]
