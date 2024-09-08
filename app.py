@@ -6,7 +6,7 @@ import tensorflow as tf
 
 app = FastAPI()
 
-MODEL = tf.keras.models.load_model("potato.h5")
+MODEL = tf.keras.models.load_model("potatoo22.h5")
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
