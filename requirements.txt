@@ -5,3 +5,4 @@ uvicorn
 gunicorn
 matplotlib
 pillow
+python-multipart
